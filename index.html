@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Emma Sargent</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://use.typekit.net/ugm7mjs.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="footer">
+    <a href="#landing" id="upbutton">return to top</a>
+    <div id="socials">
+      <a class="social" href="https://www.behance.net/emmasargent" target="_top">Behance</a>
+      <a class="social" href="https://www.linkedin.com/in/emma-sargent-959972148/" target="_top">LinkedIn</a>
+    </div>
+
+  </div>
+
+  <div id="landing">
+    <div>
+      <div id="titlegroup">
+        <h1 class="blur" id="name">emma sargent</h1>
+        <h2 id="epithet">graphic design & illustration</h2>
+        <a id="firstbutton" onclick="autoScroll();comeIn()" style="cursor:pointer;">Let's Check it Out!</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="work">
+    <div id="navigation">
+      <p class="navbutt" onclick="major()" id="majorbutton">Projects</p>
+      <p class="navbutt" onclick="about()" id="aboutbutton">About</p>
+      <p class="navbutt" onclick="contact()" id="contactbutton">Contact</p>
+    </div>
+    <div id="content">
+      <div id="major">
+        <div class="container">
+          <div class="project">
+            <div class="imagecontainer" id="gunninbutton">
+              <a href="professional/professional.html"><img class="projectimg" src="printstory.jpg"></a>
+            </div>
+          </div>
+          <div class="desccontainer"  id="gunnin">
+            <div class="desc">
+              <h3>Professional<h3>
+              <div class="imagecontainer">
+                <img src="lostandfound.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div id="hellobutton" class="imagecontainer">
+              <a href="personal.html"><img class="projectimg" src="milksoda.jpg"></a>
+            </div>
+          </div>
+          <div class="desccontainer" id="helloworld">
+            <div class="desc">
+              <h3>Personal<h3>
+              <div class="imagecontainer">
+                <img src="milksodaloop.gif">
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div id="hackbutton" class="imagecontainer">
+              <a href="organization.html"><img class="projectimg" src="cuhackit.jpg"></a>
+            </div>
+          </div>
+          <div class="desccontainer" id="cuhackit">
+            <div class="desc">
+              <h3>Organizational<h3>
+              <video id="vid" height="400" width="400" autoplay="autoplay" loop="true" muted>
+                <source src="thegangsallhere.mp4">
+              </video>
+              <script>document.getElementById('vid').play();</script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about">
+        <div style="padding:1em;">
+          <h3>about the artist</h3>
+          <div style="height:12em; width:12em; overflow:hidden; vertical-align:center;">
+            <img style="width:100%; text-align: center; margin-bottom:1em;" src="emmy.jpg">
+          </div>
+          <a style="text-transform:uppercase;font-size:.75em" class="social" href="Emma Sargent Resume.docx" download>Resume</a>
+          <p>Emma Sargent is a graphic designer based in Clemson, South Carolina. She currently acts as the website designer for Clemson's premiere hackathon, CUhackit, and as the graphic designer for UNICEF Clemson. She works often in Adobe Photoshop and Adobe Illustrator, and has a working knowledge of Adobe After Effects and Adobe Premiere. In her spare time, she loves to draw plants, roast squash, and fawn over the Bon Appétit magazine layouts.</p>
+        </div>
+      </div>
+      <div id="contact">
+        <div style="padding:1em;">
+          <p style="font-size:.75em; text-transform:uppercase;">reach me by phone</p>
+          <p style="font-size:1.25em;">803.646.3166</p>
+          <a style="color:hotpink;" href="mailto:esargen@g.clemson.edu?Subject=A%20Word%20of%20Advice" target="_top">Or email me!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="portscript.js"></script>
+</body>
+
+</html>

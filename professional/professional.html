@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Professional Work</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://use.typekit.net/ugm7mjs.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    h1 {
+      font-size: 30pt;
+      margin-left: 10%;
+      margin-top: 5%;
+    }
+    #bar {
+      background-color: black;
+      height: .5em;
+      width: 90%;
+      float: right;
+      animation: widen 1.5s ease;
+    }
+
+    #overlay {
+      background-color: white;
+      opacity: 0%;
+      width: 100%;
+      height: 500em;
+      animation: trans 1s ease;
+      position: absolute;
+    }
+
+    html {
+      width: 100%;
+      height: auto;
+      overflow: scroll;
+    }
+
+    @keyframes widen {
+      0% {
+        width: 0%;
+      }
+      75% {
+        width: 92%;
+      }
+      100% {
+        width: 90%;
+      }
+    }
+      @keyframes trans {
+        0% {
+          opacity: 100%;
+        }
+        100% {
+          opacity: 0%;
+        }
+      }
+    </style>
+</head>
+
+<body>
+  <div id="overlay"></div>
+
+  <h1>Professional Work</h1>
+  <div>
+    <div id="bar"></div>
+  </div>
+  <div class="projectgrid">
+    <div class="projcolumn">
+      <a onclick="overlay()"><img src="lostandfound.jpg"></a>
+    </div>
+    <div class="projcolumn">
+      <a onclick="overlay()"><img src="mouth.jpg"></a>
+    </div>
+    <div class="projcolumn">
+      <a onclick="overlay()"><img src="m.jpg"></a>
+    </div>
+  </div>
+
+</body>
+</html>
