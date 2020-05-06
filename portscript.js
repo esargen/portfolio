@@ -34,9 +34,9 @@ function autoScroll() {
 
 function comeIn() {
   document.getElementById("footer").style.opacity = '100%';
+  document.getElementById("footer").style.transition = '1s ease';
 }
   document.getElementById("firstbutton").addEventListener("click", comeIn);
-
 
 function blurUpAgain() {
   document.getElementById("name").style.textShadow = '2px 2px black';

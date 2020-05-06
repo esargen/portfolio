@@ -1,12 +1,5 @@
 
 
-html {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: neue-haas-grotesk-display, sans-serif;
 }
@@ -179,6 +172,7 @@ p {
   text-decoration: none;
   font-family: neue-haas-grotesk-display, sans-serif;
   transition: font-size .25s ease;
+  color: white;
 
 }
 
@@ -322,32 +316,7 @@ p {
   transition: background-color .25s ease;
 }
 
-.projectgrid {
-  flex-wrap: wrap;
-  display: flex;
-  width: 85%;
-  margin-left: 10%;
-  margin-top: 5%;
-}
 
-.projcolumn {
-  max-width: 30%;
-  flex: 30%;
-  overflow: hidden;
-}
-
-.projcolumn img {
-  width: 95%;
-  border-radius: 5%;
-  transition: .5s ease;
-  vertical-align: middle;
-}
-
-
-.projcolumn img:hover {
-  width: 100%;
-  transition: .5s ease;
-}
 
 @media (max-width: 600px) {
   #titlegroup {

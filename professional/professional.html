@@ -5,59 +5,15 @@
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="https://use.typekit.net/ugm7mjs.css">
   <link rel="stylesheet" href="../css/style.css">
-  <style>
-    h1 {
-      font-size: 30pt;
-      margin-left: 10%;
-      margin-top: 5%;
-    }
-    #bar {
-      background-color: black;
-      height: .5em;
-      width: 90%;
-      float: right;
-      animation: widen 1.5s ease;
-    }
+  <link rel="stylesheet" href="../css/projpage.css">
 
-    #overlay {
-      background-color: white;
-      opacity: 0%;
-      width: 100%;
-      height: 500em;
-      animation: trans 1s ease;
-      position: absolute;
-    }
 
-    html {
-      width: 100%;
-      height: auto;
-      overflow: scroll;
-    }
-
-    @keyframes widen {
-      0% {
-        width: 0%;
-      }
-      75% {
-        width: 92%;
-      }
-      100% {
-        width: 90%;
-      }
-    }
-      @keyframes trans {
-        0% {
-          opacity: 100%;
-        }
-        100% {
-          opacity: 0%;
-        }
-      }
-    </style>
 </head>
 
 <body>
   <div id="overlay"></div>
+
+  <a id="backarrow" href="../index.html">&larr;</a>
 
   <h1>Professional Work</h1>
   <div>
@@ -65,15 +21,79 @@
   </div>
   <div class="projectgrid">
     <div class="projcolumn">
-      <a onclick="overlay()"><img src="lostandfound.jpg"></a>
+      <div class="proj">
+        <a href="#gunnin"><img src="gunnin/lostandfound.jpg"></a>
+      </div>
+      <div class="overlay light" id="gunnin">
+        <div class="info">
+          <a class="cancel" href="#">x</a>
+          <h3>Gunnin Library</h3>
+          <div class="more">
+            <div style="display: flex; flex-wrap: wrap;">
+              <div class="projcolumn" style="max-width: 7%; flex: 7%; margin-left: 5%;">
+                <img src="gunnin/kathy.png">
+                <img src="gunnin/happen.png">
+                <img src="gunnin/research.png">
+              </div>
+              <p style="font-size: 8pt; position:absolute; transform: rotate(-90deg); margin-left: 10%; margin-top:10%">Story icons</p>
+              <div style="display:flex; flex-wrap: wrap; justify-content: space-between; width: 65%; margin-left: 12%;">
+                <img style="max-width: 32%; flex: 32%; align-self: center;" src="gunnin/finals.jpg">
+                <img style="max-width: 32%; flex: 32%; align-self: center;" src="gunnin/military.jpg">
+                <img style="max-width: 32%; flex: 32%; align-self: center;" src="gunnin/lostandfound.jpg">
+              </div>
+            </div>
+            <div style="width: 65%; float: right; margin-right: 12%;">
+              <p>My position as digital media intern for the Emery A. Gunnin Architecture Library showcases my ability to manufacture compelling graphics and legibly communicate information while remaining on brand.</p>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; width: 90%; margin-left: 5%;">
+              <img style="max-width: 19.5%; flex: 19.5%; align-self: center;" src="gunnin/printstory-01.jpg">
+              <img style="max-width: 19.5%; flex: 19.5%; align-self: center;" src="gunnin/printstory-02.jpg">
+              <img style="max-width: 19.5%; flex: 19.5%; align-self: center;" src="gunnin/printstory-03.jpg">
+              <img style="max-width: 19.5%; flex: 19.5%; align-self: center;" src="gunnin/printstory-04.jpg">
+              <img style="max-width: 19.5%; flex: 19.5%; align-self: center;" src="gunnin/printstory-05.jpg">
+            </div>
+            <p style="margin-left: 6%; font-size: 8pt;">Graphic backgrounds for Instagram stories</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="projcolumn">
-      <a onclick="overlay()"><img src="mouth.jpg"></a>
+      <div class="proj">
+        <a href="#mouth"><img src="mouth/mouth.jpg"></a>
+      </div>
+      <div class="overlay light" id="mouth">
+        <div class="info">
+          <a class="cancel" href="#">x</a>
+          <h3>Mouth of the South Logo Design</h3>
+          <div class="more" style="display:flex; flex-wrap: wrap;">
+            <div style="width: 30%; margin-left: 5%;">
+              <img style="margin-bottom: .5em;" src="mouth/logo01.jpg">
+              <img style="margin-bottom: .5em;" src="mouth/logo02.jpg">
+              <img style="margin-bottom: .5em;" src="mouth/logo03.jpg">
+            </div>
+            <div style="width: 60%; margin-left: 5%;">
+              <img src="mouth/mouth.jpg">
+              <p style="width: 90%;">This is a logo design for a catering company in Aiken, SC looking to rebrand. To the left are several possible iterations for the design earlier in the design process.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
     <div class="projcolumn">
-      <a onclick="overlay()"><img src="m.jpg"></a>
+      <div class="proj">
+        <a href="#hunts"><img class="proj" src="huntsman/m.jpg"></a>
+      </div>
+      <div class="overlay light" id="hunts">
+        <div class="info">
+          <a class="cancel" href="#">x</a>
+          <h3>Huntsman Liquors Branding</h3>
+        </div>
+      </div>
     </div>
   </div>
+
+  <script src="../projpage.js"></script>
 
 </body>
 </html>
