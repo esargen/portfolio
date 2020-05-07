@@ -62,16 +62,20 @@ html {
 
 .more img {
   max-width: 95%;
-  border-radius: 5%;
+  border-radius: 1em;
   opacity: 100%;
   z-index: 3;
 }
 
 .more img:hover {
   max-width: 95%;
-  border-radius: 5%;
+  border-radius: 1em;
   opacity: 100%;
   z-index: 3;
+}
+
+.more p {
+  font-size: 10pt;
 }
 
 .info {
