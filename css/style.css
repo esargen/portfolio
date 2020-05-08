@@ -328,3 +328,8 @@ p {
     display: contents;
   }
 }
+
+@media (max-device-width: 480px) {
+  #landing {
+    height: 100vh;
+  }
