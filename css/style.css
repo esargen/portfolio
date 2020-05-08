@@ -331,13 +331,35 @@ p {
 
 @media (max-device-width: 480px) {
   #landing {
-    height: 100vh;
+    height: 25vh;
   }
   #work {
     height: 100vh;
   }
   #titlegroup {
     color: black;
-    box-shadow: none;
+    text-shadow: none;
     width: 85%;
+    right: 0;
+  }
+
+  #titlegroup h1 {
+    font-size: 12em;
+    width: 85%;
+  }
+
+  #titlegroup h2 {
+    font-size: 4em;
+  }
+
+  #titlegroup a {
+    visibility: hidden;
+  }
+
+  #navigation p {
+    font-size: 3em;
+  }
+
+  #work p {
+    font-size: 3em;
   }
