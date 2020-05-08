@@ -333,3 +333,11 @@ p {
   #landing {
     height: 100vh;
   }
+  #work {
+    height: 100vh;
+  }
+  #titlegroup {
+    color: black;
+    box-shadow: none;
+    width: 85%;
+  }
