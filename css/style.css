@@ -232,6 +232,10 @@ p {
   min-width: 100%;
 }
 
+.imagecontainer p {
+  display: hidden;
+}
+
 .projectimg {
   width: 105%;
   overflow: hidden;
@@ -362,4 +366,16 @@ p {
 
   #work p {
     font-size: 3em;
+  }
+
+  #imagecontainer p {
+    display: block;
+  }
+
+  .desc {
+    display: none;
+  }
+
+  .container, #about, #contact {
+    width: 65%;
   }
