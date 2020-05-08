@@ -378,4 +378,7 @@ p {
 
   .container, #about, #contact {
     width: 65%;
+    margin: auto;
+    margin-left: auto;
+    height: auto;
   }

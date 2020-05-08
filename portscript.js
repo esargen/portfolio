@@ -221,3 +221,15 @@ function returnStyle() {
   document.getElementsByClassName("social")[2].style.backgroundColor = "hotpink";
   }
   document.getElementById("navigation").addEventListener("mouseout", returnStyle);
+
+  function shadowNone(x) {
+    if (x.matches) { // If media query matches
+      document.getElementById("titlegroup").style.textShadow = "none";
+    } else {
+      document.getElementById("titlegroup").style.textShadow = '2px 2px 5px black';
+    }
+  }
+
+  var x = window.matchMedia("(max-device-width: 480px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(shadowNone)
