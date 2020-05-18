@@ -236,3 +236,30 @@ html {
     opacity: 50%;
   }
 }
+
+@media (max-device-width: 480px) {
+  .projectgrid {
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 3em;
+  }
+  .projcolumn {
+    max-width: 90%;
+    margin-top: 3em;
+  }
+  .more div {
+    display: block !important;
+    flex-wrap: nowrap !important;
+    width: 90% !important;
+    position: static !important;
+  }
+  .more div img {
+    border-radius: 0;
+  }
+
+  #backarrow {
+    position: static;
+    margin-left: 10%;
+    width: .5em;
+  }
+}

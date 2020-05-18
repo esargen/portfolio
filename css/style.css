@@ -322,27 +322,48 @@ p {
 
 
 
-@media (max-width: 600px) {
+@media (max-device-width: 800px, min-device-width: 480px;) {
   #titlegroup {
     float: left;
     margin-left: 33%;
     width: auto;
+    color: black;
+    text-shadow: none !important;
+  }
+  #landing {
+    min-height: 20em;
   }
   #socials {
     display: contents;
   }
+
+    #major {
+      height: 50em !important;
+    }
+
+    #contact {
+      height: 10em !important;
+    }
+
+    #about {
+      height: 82% !important;
+    }
+
+    .projectimg {
+      opacity: .75;
+    }
 }
 
 @media (max-device-width: 480px) {
   #landing {
-    height: 25vh;
+    height: 40vh;
   }
   #work {
     height: 100vh;
   }
   #titlegroup {
     color: black;
-    text-shadow: none;
+    text-shadow: none !important;
     width: 85%;
     right: 0;
   }
@@ -380,5 +401,4 @@ p {
     width: 65%;
     margin: auto;
     margin-left: auto;
-    height: auto;
   }
