@@ -17,6 +17,10 @@ body {
   display: inline-block;
 }
 
+.visible {
+  opacity: 100% !important;
+}
+
 #upbutton {
   text-align: center;
   background-color: #f8c9dc;
@@ -81,7 +85,7 @@ p {
 #landing {
   background-color: white;
   width: 100%;
-  min-height: 40em;
+  height: 100vh;
 }
 
 #titlegroup {
@@ -182,13 +186,15 @@ p {
     transition: font-size .5s ease;
 }
 
-
+.majheight {
+  max-height: 85vh !important;
+}
 
 #major {
   width: 100%;
   position: absolute;
-  height: 0;
-  transition: height 1s ease;
+  max-height: 0;
+  transition: max-height 1s ease;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -202,9 +208,10 @@ p {
 .container {
   width: 27%;
   margin-left: 2em;
-  height: 60%;
   overflow: hidden;
 }
+
+
 
 .project {
   background-color: transparent;
@@ -264,16 +271,20 @@ p {
 
 .desccontainer {
   height: auto;
-  width: 0%;
-  border-radius: 3em;
+  width: 66%;
   overflow: hidden;
   position: absolute;
   top: 0em;
   right: 3em;
-  transition: width .5s ease;
+}
+
+.openwidth {
+  margin-left: 0% !important;
+  transition: margin-left .5s ease;
 }
 
 .desc {
+  border-radius: 3em;
   background-color: white;
   overflow: none;
   overflow: hidden;
@@ -281,6 +292,7 @@ p {
   padding-bottom: 3em;
   float: left;
   width: 100%;
+  margin-left: 100%;
 }
 
 .desc img {
@@ -289,12 +301,12 @@ p {
 }
 
 #about {
-  height: 0;
+  max-height: 0%;
   width: 27%;
   overflow: hidden;
   position: absolute;
   margin-left: 36%;
-  transition: height 1s ease;
+  transition: max-height 1s ease;
   background-color: white;
   border-radius: 15px;
 }
@@ -306,7 +318,7 @@ p {
 }
 
 #contact {
-  height: 0;
+  max-height: 0;
   width: 27%;
   overflow: hidden;
   position: absolute;
