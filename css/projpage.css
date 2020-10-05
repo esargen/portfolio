@@ -44,14 +44,19 @@ html {
 .proj {
   transition: .5s ease;
   vertical-align: middle;
+  overflow: hidden;
+}
+
+.proj a {
+  width: 100%;
 }
 
 .projcolumn img {
   max-width: 95%;
-  border-radius: 5%;
   opacity: 85%;
   transition: .25s ease;
   z-index: 3;
+  border-radius: 5%;
 }
 
 .projcolumn img:hover {
