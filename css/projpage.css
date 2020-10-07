@@ -38,7 +38,7 @@ html {
 
 .projcolumn {
   max-width: 30%;
-  flex: 30%;
+  flex: 20%;
 }
 
 .proj {
@@ -168,6 +168,29 @@ html {
   transition: .25s;
 }
 
+.more div .flexed {
+  flex: 100%;
+}
+
+
+.more div .flexer {
+  display: block;
+  max-width: 25%;
+  flex: 25%;
+}
+
+.more .fleexbig {
+  flex: 65%;
+}
+
+.more .fleex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 85%;
+  margin: auto;
+}
+
 @keyframes widen {
   0% {
     width: 0%;
@@ -248,16 +271,7 @@ html {
     flex-wrap: nowrap;
     margin-top: 3em;
   }
-  .projcolumn {
-    max-width: 90%;
-    margin-top: 3em;
-  }
-  .more div {
-    display: block !important;
-    flex-wrap: nowrap !important;
-    width: 90% !important;
-    position: static !important;
-  }
+
   .more div img {
     border-radius: 0;
   }
@@ -267,4 +281,32 @@ html {
     margin-left: 10%;
     width: .5em;
   }
+}
+
+/*modular images*/
+
+.helloworldgif {
+  width: 65%;
+  height: 50vh;
+}
+
+.helloworldgif > div {
+  background-image: url("../organizational/hello/helloworld.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.foodcollectgif {
+  width: 65%;
+  height: 50vh;
+}
+
+.foodcollectgif > div {
+  background-image: url("../organizational/food/foodsite.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }

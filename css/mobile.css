@@ -1,0 +1,153 @@
+#landing {
+  height: 100vh;
+}
+
+#footer {
+  display: none;
+}
+
+#work {
+  height: 100vh;
+}
+
+#work p {
+  font-size: 10pt;
+}
+
+.majheight {
+  padding-bottom: 3em;
+}
+
+#titlegroup {
+  color: black;
+  text-shadow: none !important;
+  width: 85%;
+  right: 0;
+}
+
+#titlegroup h1 {
+  font-size: 12em;
+  width: 85%;
+}
+
+#titlegroup h2 {
+  font-size: 4em;
+}
+
+#titlegroup a {
+  visibility: visible;
+  opacity: 1;
+  font-size: 3em;
+}
+
+#navigation p {
+  font-size: 3em;
+}
+
+#work p {
+  font-size: 3em;
+}
+
+#major {
+  overflow: auto;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin-left: 0;
+}
+
+.project {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0;
+  margin-bottom: 5vh;
+  height: 25vh;
+}
+
+.imagecontainer {
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+}
+
+.imagecontainer a {
+  width: 100%;
+  height: 20vh;
+  display: block;
+  overflow: hidden;
+}
+
+.imagecontainer img {
+  width: 100%;
+}
+
+.imagecontainer p {
+  display: block;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 2.5em;
+}
+
+.projectimg {
+  opacity: .65;
+}
+
+.projectimg:hover {
+  opacity: 1;
+  transition: .25s ease;
+  z-index: 2;
+}
+
+.desc {
+  display: none;
+}
+
+#major, #about, #contact {
+  width: 90%;
+  margin: auto;
+  margin-left: 5%;
+}
+
+h3 {
+  font-size: 5em;
+  text-align: center;
+  margin: .5em auto;
+}
+
+#about > div > div {
+  max-width: 50%;
+  margin: auto;
+  margin-bottom: 2vh;
+  height: auto;
+}
+
+#about p {
+  font-size: 2.5em;
+  max-width: 85%;
+  text-align: justify;
+  margin: auto;
+  margin-top: 3vh;
+}
+
+#about .social {
+  margin-left: 7%;
+}
+
+.social {
+  font-size: 24pt;
+}
+
+#contact p {
+  font-size: 2.5em;
+  margin: auto;
+  padding: 5vh;
+}
+
+#contact > div > div {
+  margin-left: 10%;
+}

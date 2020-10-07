@@ -311,6 +311,12 @@ p {
   border-radius: 15px;
 }
 
+#about > div > div {
+  max-width: 65%;
+  height: 40vh;
+  overflow: hidden;
+}
+
 
 #content {
   display: flex;
@@ -326,6 +332,14 @@ p {
   transition: height 1s ease;
   background-color: white;
   border-radius: 15px;
+}
+
+#contact p {
+  max-width: 85%;
+}
+
+#contact > div > div {
+  margin: 2em;
 }
 
 #work, #navigation, #upbutton {
@@ -365,52 +379,3 @@ p {
       opacity: .75;
     }
 }
-
-@media (max-device-width: 480px) {
-  #landing {
-    height: 40vh;
-  }
-  #work {
-    height: 100vh;
-  }
-  #titlegroup {
-    color: black;
-    text-shadow: none !important;
-    width: 85%;
-    right: 0;
-  }
-
-  #titlegroup h1 {
-    font-size: 12em;
-    width: 85%;
-  }
-
-  #titlegroup h2 {
-    font-size: 4em;
-  }
-
-  #titlegroup a {
-    visibility: hidden;
-  }
-
-  #navigation p {
-    font-size: 3em;
-  }
-
-  #work p {
-    font-size: 3em;
-  }
-
-  #imagecontainer p {
-    display: block;
-  }
-
-  .desc {
-    display: none;
-  }
-
-  .container, #about, #contact {
-    width: 65%;
-    margin: auto;
-    margin-left: auto;
-  }

@@ -5,7 +5,10 @@
   <title>Emma Sargent</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="https://use.typekit.net/ugm7mjs.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width:401px)" href="css/style.css">
+  <link rel="stylesheet" type="text/css" media="screen and (max-device-width:400px)" href="css/mobile.css">
+  <script src="https://kit.fontawesome.com/1bcdd38cc2.js" crossorigin="anonymous"></script>
+
   <style>
     html {
       height: 100%;
@@ -51,40 +54,7 @@
     <div id="content">
       <div id="major">
         <div class="container">
-          <div class="project">
-            <div class="imagecontainer" id="gunninbutton">
-              <a href="professional/professional.html"><img class="projectimg" src="printstory.jpg"></a>
-              <p>Professional</p>
-            </div>
-          </div>
-          <div class="desccontainer"  id="gunnin">
-            <div class="desc">
-              <h3>Professional<h3>
-              <div style="display:flex;">
-                <div class="imagecontainer">
-                  <img src="lostandfound.jpg">
-                </div>
-                <div style="max-height:20em;max-width:10em;">
-                  <img style="max-height:50%;width:100%;" src="professional/gunnin/military.jpg">
-                  <img style="max-height:50%;width:100%;" src="professional/gunnin/finals.jpg">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="project">
-            <div id="hellobutton" class="imagecontainer">
-              <a href="personal/personal.html"><img class="projectimg" src="milksoda.JPG"></a>
-              <p>Personal</p>
-            </div>
-          </div>
-          <div class="desccontainer" id="helloworld">
-            <div class="desc">
-              <h3>Personal<h3>
-              <div style="max-width:35em;" class="imagecontainer">
-                <img src="milksodaloop.gif">
-              </div>
-            </div>
-          </div>
+
           <div class="project">
             <div id="hackbutton" class="imagecontainer">
               <a href="organizational/organizational.html"><img class="projectimg" src="cuhackit.JPG"></a>
@@ -100,23 +70,64 @@
               <script>document.getElementById('vid').play();</script>
             </div>
           </div>
+
+          <div class="project">
+            <div id="hellobutton" class="imagecontainer">
+              <a href="personal/personal.html"><img class="projectimg" src="milksoda.JPG"></a>
+              <p>Personal</p>
+            </div>
+          </div>
+          <div class="desccontainer" id="helloworld">
+            <div class="desc">
+              <h3>Personal<h3>
+              <div style="max-width:35em;" class="imagecontainer">
+                <img src="milksodaloop.gif">
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="imagecontainer" id="gunninbutton">
+              <a href="professional/professional.html"><img class="projectimg" src="printstory.jpg"></a>
+              <p>Professional</p>
+            </div>
+          </div>
+          <div class="desccontainer"  id="gunnin">
+            <div class="desc">
+              <h3>Professional<h3>
+              <div style="display:flex;">
+                <div class="imagecontainer">
+                  <img src="lostandfound.jpg">
+                </div>
+                <div style="max-height:20em;flex:30%;">
+                  <img style="max-height:50%;width:100%;" src="professional/gunnin/military.jpg">
+                  <img style="max-height:50%;width:100%;" src="professional/gunnin/finals.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
       <div id="about">
         <div style="padding:1em;">
           <h3>about the artist</h3>
-          <div style="height:12em; width:12em; overflow:hidden; vertical-align:center;">
+          <div>
             <img style="width:100%; text-align: center; margin-bottom:1em;" src="emmy.jpg">
           </div>
-          <a style="text-transform:uppercase;font-size:.75em" class="social" href="Emma Sargent Resume.docx" download>Resume</a>
+          <a style="text-transform:uppercase" class="social" href="Emma Sargent Resume.docx" download>Resume</a>
           <p>Emma Sargent is a graphic designer based in Clemson, South Carolina. She currently acts as the website designer for Clemson's premiere hackathon, CUhackit, and as the graphic designer for UNICEF Clemson. She works often in Adobe Photoshop and Adobe Illustrator, and has a working knowledge of Adobe After Effects and Adobe Premiere. In her spare time, she loves to draw plants, roast squash, and fawn over the Bon Appétit magazine layouts.</p>
         </div>
       </div>
       <div id="contact">
         <div style="padding:1em;">
-          <p style="font-size:.75em; text-transform:uppercase;">reach me by phone</p>
-          <p style="font-size:1.25em;">803.646.3166</p>
-          <a style="color:hotpink;text-decoration:none;" href="mailto:esargen@g.clemson.edu?Subject=A%20Word%20of%20Advice" target="_top">Or <b><u>email me!</u></b></a>
+          <p>The best way to reach me is through e-mail, but feel free to check out my LinkedIn and Behance!</p>
+          <div>
+            <a class="social" href="mailto:esargen@g.clemson.edu" target=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="social" href="https://www.behance.net/emmasargent" target="_top">Behance</a>
+            <a class="social" href="https://www.linkedin.com/in/emma-sargent-959972148/" target="_top">LinkedIn</a>
+          </div>
+
         </div>
       </div>
     </div>
