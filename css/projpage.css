@@ -87,7 +87,7 @@ html {
   background-color: white;
   position: relative;
   margin: 5% 20% auto auto;
-  padding: 1em 1em 2em 1em;
+  padding: 2em 2em 3em 1em;
   width: 65%;
   border-radius: 10px;
   box-shadow: 0em .25em .5em .1em rgb(0, 0, 0, .25);
@@ -173,9 +173,8 @@ html {
 }
 
 
-.more div .flexer {
+.more .flexer, .more div .flexer {
   display: block;
-  max-width: 25%;
   flex: 25%;
 }
 
@@ -189,6 +188,18 @@ html {
   justify-content: space-between;
   max-width: 85%;
   margin: auto;
+}
+
+.more .allflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 85%;
+  margin: auto;
+}
+
+.icons {
+  max-width: 15%;
 }
 
 @keyframes widen {
@@ -292,21 +303,29 @@ html {
 
 .helloworldgif > div {
   background-image: url("../organizational/hello/helloworld.gif");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
 
 .foodcollectgif {
-  width: 65%;
+  max-width: 65%;
   height: 50vh;
 }
 
 .foodcollectgif > div {
   background-image: url("../organizational/food/foodsite.gif");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.clemnightsgif > div {
+  background-image: url("../personal/clemnights/clemnights.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
   height: 100%;
 }
