@@ -299,6 +299,7 @@ html {
 .helloworldgif {
   width: 65%;
   height: 50vh;
+  margin-right: 2vw;
 }
 
 .helloworldgif > div {
@@ -312,6 +313,7 @@ html {
 .foodcollectgif {
   max-width: 65%;
   height: 50vh;
+  margin-right: 2vw;
 }
 
 .foodcollectgif > div {
