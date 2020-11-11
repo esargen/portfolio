@@ -23,8 +23,11 @@
 }
 
 .cancel {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
+  color: lightgrey;
+  margin-left: 75vw;
+
 }
 
 .more p, .more a {
@@ -33,8 +36,9 @@
 }
 
 .more div .flexed {
-  flex: 32%;
-  max-width: 32%;
+  max-width: 85%;
+  margin: auto;
+  margin-top: 5%;
 }
 
 .more .fleex {
@@ -95,6 +99,32 @@
   height: 100%;
 }
 
-.more .sanitizeshirt {
-  display: none;
+.top, .bottom {
+  display: block;
+  text-align: justify;
+}
+
+.bottom {
+  margin-top: auto;
+}
+
+.bottom img {
+  margin-top: 5vh;
+}
+
+.bottom .web:nth-child(2), .bottom .web:nth-child(1) {
+  max-width: 95%;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
+.top > div:nth-child(1), .top > div:nth-child(2) {
+  max-width: 65%;
+  width: 65%;
+  margin: auto;
+}
+
+.info h3 {
+  text-align: center;
+  font-size: 64pt;
 }

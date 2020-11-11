@@ -51,33 +51,20 @@ html {
   width: 100%;
 }
 
-.projcolumn img {
+.proj img {
   max-width: 95%;
   opacity: 85%;
   transition: .25s ease;
   z-index: 3;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
-.projcolumn img:hover {
+.proj img:hover {
   max-width: 98%;
   opacity: 100%;
   transition: .5s ease;
 }
 
-.more img {
-  max-width: 95%;
-  border-radius: 1em;
-  opacity: 100%;
-  z-index: 3;
-}
-
-.more img:hover {
-  max-width: 95%;
-  border-radius: 1em;
-  opacity: 100%;
-  z-index: 3;
-}
 
 .more p {
   font-size: 10pt;
@@ -96,6 +83,8 @@ html {
 .info h3 {
   margin-right: 10%;
   text-align: right;
+  font-size: 30pt;
+  font-weight: 100;
 }
 
 .info .light {
@@ -140,9 +129,12 @@ html {
 
  .cancel {
    text-decoration: none;
-   font-weight: 700px;
-   font-size: 20pt;
+   font-weight: 900;
+   font-size: 14pt;
    float: right;
+   position: fixed;
+   margin-left: 70vw;
+   color: white;
  }
 
  .cancel:target {
@@ -179,7 +171,12 @@ html {
 }
 
 .more .fleexbig {
-  flex: 65%;
+  max-width: 85%;
+  margin: auto;
+}
+
+.fleexbig img {
+  width: 100%;
 }
 
 .more .fleex {
@@ -199,8 +196,69 @@ html {
 }
 
 .icons {
-  max-width: 15%;
+  display: flex;
 }
+.icons img {
+  margin: 0 10px;
+}
+
+.top, .bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top > div:nth-child(1) {
+  flex: 25%;
+  width: 25%;
+}
+
+.top >div:nth-child(1) img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.top > div:nth-child(2) {
+  width: 30%;
+  margin-left: 5%;
+}
+
+.more > div {
+  max-width: 90%;
+  margin: auto;
+}
+
+.more > div > img {
+  width: 100%;
+}
+
+.top {
+  margin: auto;
+}
+
+.bottom {
+  margin: auto;
+  margin-top: 5vh;
+
+}
+
+.bottom img {
+  flex: 30%;
+  max-width: 30%;
+  align-self: center;
+}
+
+.bottom .web:nth-child(2) {
+  flex: 20%;
+  max-width: 20%;
+  margin-left: 5%;
+}
+
+.bottom .web:nth-child(1) {
+  flex: 65%;
+  max-width: 75%;
+}
+
 
 @keyframes widen {
   0% {
@@ -325,7 +383,7 @@ html {
 }
 
 .clemnightsgif > div {
-  background-image: url("../personal/clemnights/clemnights.gif");
+  background-image: url("../personal/clemnights/clemnightsmobile.gif");
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 100%;
